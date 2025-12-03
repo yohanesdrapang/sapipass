@@ -1,0 +1,106 @@
+.div {
+  
+}
+
+
+/*
+.container {
+  display: flex;
+  gap: 20px; 
+}
+
+/* Untuk memperbaiki positioning elemen pseudo 
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: border-color 0.5s;
+}
+
+/* Efek hover pada tombol 
+a:hover {
+  background-color: var(--clr);
+  border-color: var(--clr);
+  box-shadow: 0 0 10px var(--clr),
+              0 0 30px var(--clr),
+              0 0 60px var(--clr),
+              0 0 100px var(--clr);
+}
+
+/* Elemen pseudo sebelum tombol 
+a::before {
+  content: "";
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background: var(--clr);
+  border-radius: 50%;
+  transition: 1s;
+  animation: animate 2s linear infinite;
+  animation-delay: calc(0.33s * var(--i));
+  z-index: 1;
+}
+
+/* Hover pada elemen pseudo 
+a:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Animasi rotasi lingkaran 
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Elemen pseudo setelah tombol 
+a::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #0e1538;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+/* Hover pada elemen pseudo setelah tombol 
+a:hover::after {
+  background: var(--clr);
+}
+
+/* Hover pada teks span 
+a:hover span {
+  color: black;
+  position: relative;
+  z-index: 3;
+}
+
+/* Animasi rotasi pada border 
+a::before {
+  border: 2px solid var(--clr);
+  box-sizing: border-box;
+}
+
+a:hover::before {
+  animation: rotateBorder 2s linear infinite;
+}
+
+@keyframes rotateBorder {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+*/
